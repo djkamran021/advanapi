@@ -38,9 +38,10 @@ rm -rf ../.telegram-cli
 ```
 ```bash
 ./start.sh -bw
-***
+```
+```bash
 `./start.sh install`
-***
+```
 ```bash
 
 tmux new-session -s script "bash auto.sh -t"
