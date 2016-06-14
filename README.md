@@ -18,10 +18,10 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 
 ```
 ```bash 
-git clone https://github.com/djkamran021/AdvanSource.git
+git clone https://github.com/djkamran021/advanapi.git
 ```
 ```bash
-cd AdvanSource
+cd advanapi
 ```
 ***
 ```bash
