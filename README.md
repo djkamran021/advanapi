@@ -7,11 +7,6 @@
 # <p align="right">install:
 ```
 
-```
-```
-
-```
-```
 sudo apt-get update
 ```
 ```
@@ -31,7 +26,7 @@ cd AdvanSource
 ***
 ```bash
 chmod +x fix.sh
-chmod +x steady.sh
+chmod +x auto.sh
 chmod +x start.sh
 ```
 ***
@@ -39,23 +34,18 @@ chmod +x start.sh
 ***
 ***
 ```bash
-cd .luarocks
-cd bin
-./luarocks-5.2 install luafilesystem
-./luarocks-5.2 install lub
-./luarocks-5.2 install luaexpat
-cd ..
-cd ..
+rm -rf ../.telegram-cli
 ```
+```bash
+./start.sh -bw
 ***
 `./start.sh install`
 ***
 ```bash
+
 tmux new-session -s script "bash auto.sh -t"
-```
-```
-sudo service redis-server start redis-cli
+
 ```
 ***
-`./start.sh`
+
 ***
